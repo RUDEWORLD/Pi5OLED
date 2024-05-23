@@ -47,10 +47,13 @@ You should see (oled_env) at the beginning of your terminal line now.
 
 While In your virtual environment, type into terminal…
 
-``cd ~
-pip3 install --upgrade adafruit-python-shell
-wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
-sudo -E env PATH=$PATH python3 raspi-blinka.py``
+``cd ~``
+
+``pip3 install --upgrade adafruit-python-shell``
+
+``wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py``
+
+``sudo -E env PATH=$PATH python3 raspi-blinka.py``
 
 When done hit “Y” to reboot.
 
