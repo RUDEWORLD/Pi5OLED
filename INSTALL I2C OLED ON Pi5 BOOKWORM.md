@@ -107,7 +107,10 @@ Now We'll make an executable file that will fix this. Enter terminal command bel
 
 ``curl -OL https://raw.githubusercontent.com/RUDEWORLD/Pi5OLED/main/OLED_ACTIVATE``
 
-``sudo chmod +x /home/omnicon/OLED_ACTIVATE``
+``sudo chmod +x /home/pi/OLED_ACTIVATE``
+
+MAKE SURE TO REPLACE “pi” WITH YOUR USER NAME IN LINE ABOVE IF YOU CHANGED THE USER NAME.
+
 
 Now we need to tell the Pi to execute that file on reboot. In terminal, enter
 
